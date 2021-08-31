@@ -6,7 +6,7 @@ public class Rearranger implements Directions {
 
     public static void main (String[] args)
     {
-        World.readWorld("worlds/fig2-9.kwld");
+        World.readWorld("worlds/fig2-11.kwld");
         World.setVisible(true);
         World.setDelay(75);
         //World.showSpeedControl(true);
