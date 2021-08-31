@@ -6,7 +6,7 @@ public class MountainClimb implements Directions {
   {
     World.readWorld("worlds/fig2-9.kwld");
     World.setVisible(true);
-    World.setDelay(25);
+    World.setDelay(75);
     //World.showSpeedControl(true);
     
     int row = 1; 
