@@ -16,5 +16,31 @@ public class StairClimber implements Directions {
         UrRobot bot = new UrRobot(row, col,
                 East, 1);
 
+        bot.turnLeft();
+        bot.move();
+
+        bot.turnLeft();
+        bot.turnLeft();
+        bot.turnLeft();
+        bot.move();
+        bot.pickBeeper();
+
+        bot.turnLeft();
+        bot.move();
+        bot.turnLeft();
+        bot.turnLeft();
+        bot.turnLeft();
+        bot.move();
+        bot.pickBeeper();
+
+        bot.turnLeft();
+        bot.move();
+        bot.turnLeft();
+        bot.turnLeft();
+        bot.turnLeft();
+        bot.move();
+        bot.pickBeeper();
+
+
     }
 }
